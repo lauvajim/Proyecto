@@ -1,0 +1,93 @@
+.top-bar{
+    background-color: #007A7E;
+    color: white;
+}
+.menu-text{
+    background-color: #007A7E;
+    color: white;
+    font: bold !important;
+}
+
+.options{
+    background-color: #007A7E;
+    color: white !important;
+    font: bold !important;
+}
+
+.contact{
+    background-color: #007A7E;
+    color: white !important;
+    font: bold !important;
+}
+
+.login{
+    background-color: #007A7E;
+    color: white !important;
+    font: bold !important;
+}
+
+body {
+    background-image: url(/img/rpa_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font: bold;
+}
+
+h3,h5{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.principal {
+    width: 100vw;  /* Ancho completo del viewport */
+    height: 100vh; /* Altura completa del viewport */
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+  }
+  
+  .principal img {
+    width: 100%;   /* Extiende el ancho de la imagen al 100% del contenedor */
+    height: 100%;  /* Extiende la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra el div sin distorsionarse */
+  }
+
+.thumbnail{
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    overflow: hidden;
+}
+
+.form{
+    margin: 0 auto;
+    margin-left: 40px
+}
+
+#bottom-bar{
+    background-color: #007A7E;
+    color: white;
+}
+
+.custom-button {
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: #007bff; 
+    color: white; 
+}
